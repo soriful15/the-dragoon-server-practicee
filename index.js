@@ -13,6 +13,11 @@ app.get('/', (req, res) => {
 })
 
 
+
+
+
+
+
 app.get('/categories',(req,res)=>{
     res.send(categories)
 })
